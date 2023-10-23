@@ -1,6 +1,9 @@
 import re, time, sys, os, math
 
 if __name__ == "__main__":
+    # Clear terminal if needed
+    os.system('cls' if os.name == 'nt' else 'clear')
+    
     # Pay rate: $13.50/hr
     rate = 13.50
     
