@@ -2,9 +2,10 @@
 Created as a personal tool for pay management, but fellow students working for OASIS as a Workstudy can use this calculator to determine the amount of financial aid allotment they have left based on current number of hours worked. Calculator also offers a rough recommended number of hours to work per week to get the max allotment possible.
 
 ## Instructions: 
-Simply download the appropriate executable (Windows version coming soon!) from the `Releases` section to the side and run it! Or feel free to download the script directly and compile if you'd like.
+1. Install a Python compilation package like [PyInstaller](https://www.pyinstaller.org) on your computer
+2. Download the source code `pay_calc.py`
+3. Navigate to the directory where the source code is located
+4. Compile using your selected package
+5. Run your executable!
 
-Note: Unix version is for both Linux and MacOS systems.
-
-## TODO: 
-- Compile on Windows (any adventurous souls can easily compile the script and dependencies to an executable file using packages like [PyInstaller](https://www.pyinstaller.org))
+Note: if you are using PyInstaller, you can simply run the command `pyinstaller --onefile pay_calc.py` while in the directory where `pay_calc.py` is located
