@@ -8,6 +8,6 @@ Created as a personal tool for pay management, but fellow students working for O
 4. Compile using your selected package
 5. Run your executable!
 
-Note: if you are using PyInstaller, you can simply run the command `pyinstaller --onefile pay_calc.py` while in the directory where `pay_calc.py` is located
+Note: if you are using PyInstaller on a Unix system (Linux and MacOS/OSX), you can simply run the command `pyinstaller --onefile pay_calc.py` while in the directory where `pay_calc.py` is located. The executable file will be found in the generated `distr` folder.
 
 Feel free to reach out if you run into any issues!
