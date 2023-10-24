@@ -1,3 +1,10 @@
+"""
+OASIS Workstudy Pay Allotment Calculator
+Terminal Version
+
+by Shawn Khandia, for Spring '23 semester
+"""
+
 import re, time, sys, os, math
 
 if __name__ == "__main__":
