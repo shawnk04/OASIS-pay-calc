@@ -44,8 +44,8 @@ if __name__ == "__main__":
     # Calculations and printing values
     total_pay = round(HTD*rate, 2)
     total_allot = round(allotment-(HTD*rate), 2)
-    total_hours = math.floor((allotment-(HTD*rate))/rate * 10)/10.0
-    rec_weekly_hours = math.floor((total_hours - HTD)/num_weeks * 10)/10.0
+    total_hours = math.floor(((allotment-(HTD*rate))/rate) * 10)/10.0
+    rec_weekly_hours = math.floor((total_hours/num_weeks) * 10)/10.0
     print(f"Total pay so far: ${total_pay}")
     print(f"Total allotment left: ${total_allot}")
     print(f"Total # of hours left: {total_hours}")
