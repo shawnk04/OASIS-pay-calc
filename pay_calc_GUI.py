@@ -1,3 +1,10 @@
+"""
+OASIS Workstudy Pay Allotment Calculator
+GUI Version using Tkinter
+
+by Shawn Khandia, for Spring '23 semester
+"""
+
 import re, math
 import tkinter as tk
 
