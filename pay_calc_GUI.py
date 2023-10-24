@@ -58,8 +58,8 @@ if __name__ == "__main__":
             # Calculations and displaying values
             total_pay = round(HTD*rate, 2)
             total_allot = round(allotment-(HTD*rate), 2)
-            total_hours = math.floor((allotment-(HTD*rate))/rate * 10)/10.0
-            rec_weekly_hours = math.floor((total_hours - HTD)/num_weeks * 10)/10.0
+            total_hours = math.floor(((allotment-(HTD*rate))/rate) * 10)/10.0
+            rec_weekly_hours = math.floor((total_hours/num_weeks) * 10)/10.0
             tk.Label(results_window, text = "\nResults\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n").pack()
             tk.Label(results_window, text = f"Total pay so far: ${total_pay}", justify = "left", wraplength = 360).pack()
             tk.Label(results_window, text = f"Total allotment left: ${total_allot}", justify = "left", wraplength = 360).pack()
